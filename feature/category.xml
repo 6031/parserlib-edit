@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.mit.eecs.parserlib.edit.feature_1.0.0.qualifier.jar" id="edu.mit.eecs.parserlib.edit.feature" version="1.0.0.qualifier">
+      <category name="edu.mit.eecs.parserlib.category"/>
+   </feature>
+   <category-def name="edu.mit.eecs.parserlib.category" label="ParserLib"/>
+</site>

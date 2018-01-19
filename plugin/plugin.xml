@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="ParserLib Grammar Editor"
+            extensions="g"
+            icon="icons/parserlib_grammar_file.png"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="edu.mit.eecs.parserlib.edit.GrammarEditor"
+            id="edu.mit.eecs.parserlib.edit.grammar">
+      </editor>
+   </extension>
+
+</plugin>
