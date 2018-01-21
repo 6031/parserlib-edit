@@ -41,9 +41,6 @@ java -jar "$ECLIPSE"/plugins/$launcher.*.jar \
 # Fix site name
 sed -i '' -e "/<repository/s/'file:[^']*'/'ParserLib'/" "$BUILD"/output/site/*.xml
 
-# Record version number
-fgrep .feature= "$BUILD/output/finalFeaturesVersions.properties" | cut -f2 -d= > "$BUILD/output/site/version.txt"
-
 # Sanity-check the result
 
 echo $'\n'Versions:
