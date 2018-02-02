@@ -12,9 +12,4 @@ public class GrammarEditor extends TextEditor {
         setSourceViewerConfiguration(new GrammarViewerConfiguration(colors));
         setDocumentProvider(new GrammarDocumentProvider());
     }
-
-    @Override public void dispose() {
-        colors.dispose();
-        super.dispose();
-    }
 }

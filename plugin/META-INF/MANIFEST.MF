@@ -4,6 +4,7 @@ Bundle-Name: ParserLib Grammar Editor
 Bundle-SymbolicName: edu.mit.eecs.parserlib.edit.plugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
  org.eclipse.jface.text,
  org.eclipse.ui,
  org.eclipse.ui.editors
