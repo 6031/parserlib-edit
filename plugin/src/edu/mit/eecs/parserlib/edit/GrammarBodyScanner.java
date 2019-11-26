@@ -42,6 +42,7 @@ public class GrammarBodyScanner extends RuleBasedScanner {
                 new SingleLineRule("\"", "\"", string, '\\'),
                 new SingleLineRule("[^", "]", regex, '\\'),
                 new SingleLineRule("[", "]", string, '\\'),
+                new SingleLineRule("{", "}", keyword, '\\'),
                 operators,
                 keywords,
                 new WhitespaceRule(this::isWhitespace),
@@ -49,7 +50,7 @@ public class GrammarBodyScanner extends RuleBasedScanner {
     }
 
     private boolean isOperator(char c) {
-        return c == '.' || c == '|' || c == '*' || c == '+' || c == '?' || c == '(' || c == ')' || c == '{' || c == '}';
+        return c == '.' || c == '|' || c == '*' || c == '+' || c == '?' || c == '(' || c == ')';
     }
 
     private boolean isWhitespace(char c) {

@@ -2,20 +2,20 @@
 <feature
       id="edu.mit.eecs.parserlib.edit.feature"
       label="ParserLib Grammar Editor"
-      version="1.1.0.qualifier">
+      version="1.1.1.qualifier">
 
    <description>
       Eclipse editor for ParserLib grammars
    </description>
 
    <copyright>
-      Copyright (c) 2018 Massachusetts Institute of Technology
+      Copyright (c) 2018-2020 Massachusetts Institute of Technology
    </copyright>
 
    <license url="http://opensource.org/licenses/MIT">
       http://opensource.org/licenses/MIT
 
-Copyright (c) 2018 Massachusetts Institute of Technology
+Copyright (c) 2018-2020 Massachusetts Institute of Technology
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
